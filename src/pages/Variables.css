@@ -1,0 +1,41 @@
+.full-width-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .auth-selector-button {
+    color: black !important;
+  }
+  
+  .auth-selector-button.selected {
+    color: #007AFF !important;
+    font-weight: bold !important;
+  }
+  
+  .divider {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-bottom: 10px;
+}
+
+.ion-button {
+  --background: #007AFF;
+  --color: #FFFFFF;
+}
+
+.response {
+  white-space: pre-wrap; 
+  word-wrap: break-word; 
+}
+
+.sso-button {
+  --padding-bottom: 10px;
+  --padding-top: 10px;
+  width: 100%;
+  --background: #007AFF;
+  --color: #FFFFFF;
+}
+  
